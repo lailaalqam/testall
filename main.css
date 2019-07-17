@@ -1,0 +1,156 @@
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            background-image: linear-gradient(to right top, #3f4e5f, #38485a, #314155, #2a3b50, #23354b, #1b3044, #142a3c, #0d2535, #091f29, #08181d, #051112, #030404);
+            color: white;
+        }
+        
+        .grid-item1 {
+            display: grid;
+            grid-template-rows: 30px 1fr 50px 50px 1fr 30px;
+            background-color: #7B90AD;
+            color: white;
+        }
+        
+        .grid-item2 {
+            padding-top: 20px;
+            grid-template-rows: 50px 1fr;
+            background-color: rgb(155, 166, 182);
+            color: black;
+        }
+        
+        .flex-grow-1 {
+            flex-grow: 1;
+        }
+        
+        .pic {
+            height: 100px;
+            width: 100px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+        .div2 {
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+        
+        .row1 {
+            border: 1px solid rgb(255, 255, 255, 0.5);
+            font-size: 25px;
+            color: #2c5f79;
+            padding-left: 30px;
+            margin-right: 10 px;
+            border: 1px solid #7B90AD;
+            background-image: radial-gradient(circle, #ffffff, #b9b9b9, #777777, #b9b9b9, #bbbbbbb3);
+        }
+        
+        .des {
+            height: 100px;
+            width: 900px;
+        }
+        
+        input.test:hover {
+            background-image: linear-gradient(to right, #f5ebeb, #cecbf1);
+        }
+        
+        input.test {
+            white-space: nowrap;
+            width: 200px;
+            overflow: hidden;
+            border: 1px solid #335ed3b3;
+        }
+        
+        .shadow-pop-tr {
+            -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        }
+        
+        .shadow-inset-center {
+            -webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        
+        .row2 {
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-right: 30px;
+            padding-top: 30px;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(253, 245, 245, 0.75) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+        
+        .erorr {
+            color: red;
+        }
+        
+        .row2_1 {
+            display: flex;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-bottom: 20px;
+        }
+        
+        .row2_2 {
+            padding-right: 30px;
+            display: flex;
+            padding-left: 30px;
+        }
+        
+        .row3 {
+            display: flex;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-right: 30px;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(253, 245, 245, 0.75) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+        
+        .row4 {
+            display: flex;
+            padding-left: 30px;
+            margin-right: 40px;
+            padding-right: 30px;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(253, 245, 245, 0.75) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+        
+        .row4 button {
+            height: 20px;
+        }
+        
+        .row5 {
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-right: 30px;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+        
+        .row6 {
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-right: 30px;
+            display: flex;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+        
+        .show_1 {
+            display: flex;
+            padding-right: 10px;
+            border: 1px solid rosybrown;
+        }
+        
+        .show_1_1 {
+            height: 60px;
+        }
+        
+        .show_2 {
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-left: 1px;
+            display: flex;
+        }
+        
+        .row2_3 {
+            padding-top: 20px;
+            padding-right: 30px;
+            display: flex;
+            padding-left: 30px;
+        }

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="intro.js"></script>
+</head>
+
+<body>
+    <div class="grid-container" style="height: calc(100vh - 10px);">
+
+        <div class="grid-item1">
+            <div class="row1">user data</div>
+            <div class="row2">
+                <div class="row2_1">
+
+                    <div style="width: 100px"> First name: </div>
+                    <div> <input class="test" dow-pop style="width: 100px" type="text" name="fname" id="fname"></div>
+                    <div style="width: 100px">
+                    </div>
+                    <div style="width: 100px"> Last name:</div>
+                    <div> <input class="test" style="width: 100px" type="text" id="lname"> </div>
+                    <div class="erorr"><span id="messg2"> </span> </div>
+
+
+                </div>
+                <div class="row2_2">
+
+                    <div style="width: 100px"> Date of Birth:</div>
+                    <div><input class="test" style="width: 100px" type="date" id="date" name=" date"></div>
+                    <div style="width: 100px"> </div>
+                    <div style="width: 100px">phone: </div>
+                    <div> <input class="test" style="width: 100px" type="text" id="phone"> </div>
+                    <div class="erorr"><span id="messg1"> </span> </div>
+
+
+
+                </div>
+                <form>
+                    <div class="row2_3">
+                        <div style="width: 100px"> Email:</div>
+                        <div> <input class="test" type="email" id="mail" placeholder="name@email.com" required></div>
+                        <div class="erorr"><span id="messg3"> </span> </div>
+                    </div>
+                </form>
+
+
+            </div>
+            <div class="row3">
+                <div style="padding-right: 40px  ">Gender </div>
+                <form>
+
+                    <div> <input type="radio" name="gender" value="male">male
+                        <input type="radio" name="gender" value="female"> Female<br></div>
+                </form>
+            </div>
+
+            <div class="row4">
+                <div style="padding-right: 40px">profile pic </div>
+                <input id="img" type="file" onchange="afterclick()"><br>
+                <img src="" height="200" alt="Image preview...">
+            </div>
+            <div class="row5">
+                <div style="padding-bottom: 10px">Description</div>
+                <div> <input class="test" class="des" type="text" id="DES"><br></div>
+            </div>
+            <div class="row6">
+                <div class="flex-grow-1"> </div>
+
+                <br>
+
+                <div> <button onclick="afterclick()"> show </button> </div>
+                <div> <button onclick="valid()"> valid </button> </div>
+
+            </div>
+        </div>
+
+
+        <div class="grid-item2">
+
+            <div class="show_1">
+                <div id="im"><input class="pic" type="button" id="img"><br></div>
+                <div class="show_1_1">
+                    <div class="show_2">
+                        <div id="p"> </div>
+                        <br>
+                        <div style="font-size: 12px" id="ph"> </div>
+
+                    </div>
+                    <div id="d"> </div>
+                    <div id="ema"> </div>
+                    <!-- <div<img src="" id="prof " height="200" alt="Image preview..."></div> -->
+                </div>
+
+
+
+            </div>
+
+            <div class="show_2_2">
+                <div id="desc"></div>
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
